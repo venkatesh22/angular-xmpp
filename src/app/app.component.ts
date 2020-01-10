@@ -16,12 +16,12 @@ export class AppComponent implements OnInit  {
   ) { }
 
 ngOnInit() {
-   const s = this.renderer2.createElement('script');
-   s.onload = this.loadNextScript.bind(this);
-   s.type = 'text/javascript';
-   s.src = 'https://cdn.conversejs.org/5.0.5/dist/converse.min.js'; // Defines someGlobalObject
-   s.text = ``;
-   this.renderer2.appendChild(this._document.body, s);
+//    const s = this.renderer2.createElement('script');
+//    s.onload = this.loadNextScript.bind(this);
+//    s.type = 'text/javascript';
+//    s.src = 'https://cdn.conversejs.org/5.0.5/dist/converse.min.js'; // Defines someGlobalObject
+//    s.text = ``;
+//    this.renderer2.appendChild(this._document.body, s);
 }
  
 loadNextScript() {
